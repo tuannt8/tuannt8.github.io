@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: single
 ---
 
-<div class="home">
-<!-- 
-  <h1 class="page-heading">Highlights:</h1>
+<!-- <div class="home">
+
+  <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -16,8 +16,11 @@ layout: default
         </h2>
       </li>
     {% endfor %}
-  </ul> -->
+  </ul>
 
-  {% include bb_f.html %}
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-</div>
+</div> -->
+
+{% capture about %}{% include_relative about_content.md %}{% endcapture %}
+{{ about  | markdownify }}
