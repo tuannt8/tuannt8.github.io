@@ -43,18 +43,11 @@ $on-laptop:        800px;
     }
 }
 
-img[alt=portrait] {
-  width: 150px;
-  text-align: center;
-}
-
-.center {
-    text-align: center;
-}
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "foundation",
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "mine"
 ;
