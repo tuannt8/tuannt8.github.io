@@ -23,8 +23,6 @@ I am a PhD candidate from [Technical University Denmark][DTU]. My current resear
       {{ post.excerpt }}
     </li>
 
-
-
   {% endfor %}
 </ul>
 
