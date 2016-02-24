@@ -7,3 +7,20 @@ img[alt=portrait] {
 .center {
     text-align: center;
 }
+
+.bottom {
+    vertical-align: bottom;
+}
+
+img[alt=img-post-list] {
+  height: 150px;
+  text-align: center;
+}
+
+.paper-link {
+    font-size: 18px;
+
+    @include media-query($on-laptop) {
+        font-size: 16px;
+    }
+}

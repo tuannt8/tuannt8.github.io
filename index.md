@@ -2,39 +2,17 @@
 layout: single
 ---
 
-<!-- <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+<div class="row">
+<div class="large-4 medium-4 columns" markdown="1">
+  {: .center}
+  ![portrait](/img/portrait.png)
+</div><div class="large-8 medium-8 columns" markdown="1">
+  I am a PhD candidate from [Technical University Denmark][DTU]. My current research is deformable mesh and its applications.
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div> -->
-
-<!-- {% capture about %}{% include_relative about_content.md %}{% endcapture %}
-{{ about  | markdownify }} -->
-
-<!-- <div  class="home" markdown="1">
-  {% include_relative about_content.md %}
-</div> -->
-
-{: .center}
-![portrait](/img/portrait.png)
-
-{: .center}
-# Tuan Nguyen
-I am a PhD candidate from [Technical University Denmark][DTU]. My current research is deformable mesh and its applications. My  [CV][cv].
+  {% include button-gray.html title="More from my CV" url="/assets/cv.pdf"%}
+</div>
+</div>
 
 ### Highlights
 
@@ -43,8 +21,8 @@ I am a PhD candidate from [Technical University Denmark][DTU]. My current resear
 * Offshore developer, Sony Digital Network Application Inc., Vietnam, 2010-2012
 * BS in Mechanical Engineering, honor program, [HUST][Hust], Vietnam, 2010
 
----
 
+{% comment %}
 ### My researches
 <ul class="post-list">
   {% for post in site.categories.research %}
@@ -58,19 +36,17 @@ I am a PhD candidate from [Technical University Denmark][DTU]. My current resear
     </li>
   {% endfor %}
 </ul>
+{% endcomment %}
+
 
 ### Publications
 <ul class="post-list">
   {% for post in site.categories.paper %}
-    <!-- <li> -->
-      <!-- <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> -->
-      <!-- <span class="post-meta">({{ post.date | date: "%Y" }})</span> -->
-      <!-- {{ post.description }} -->
-      {{ post.excerpt }}
-      {% if post.description %}
-        <a href="{{ post.url | prepend: site.baseurl }}">Read more...</a>
-      {% endif %}
-    <!-- </li> -->
+      <a class="paper-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+
+      <span class="post-meta"> {{ post.conf }}, {{ post.date | date: "%Y" }}. </span>
+
+      <p>{{ post.excerpt }}</p>
   {% endfor %}
 </ul>
 
