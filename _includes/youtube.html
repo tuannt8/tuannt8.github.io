@@ -1,0 +1,10 @@
+<div class="video-wrapper" >
+  
+  <div class="flex-video">
+      <iframe width="{{ include.width }}" height="{{ include.height }}" src="http://www.youtube.com/embed/YkOgbarneHE" frameborder="0" allowfullscreen></iframe>
+  </div>
+    {% if include.caption %}
+    <p class="video-caption">{{ include.caption }}</p>
+    {% endif %}
+
+  </div>

@@ -1,8 +1,5 @@
 
-img[alt=portrait] {
-  width: 150px;
-  text-align: center;
-}
+
 
 .center {
     text-align: center;
@@ -12,10 +9,7 @@ img[alt=portrait] {
     vertical-align: bottom;
 }
 
-img[alt=img-post-list] {
-  height: 150px;
-  text-align: center;
-}
+
 
 .paper-link {
     font-size: 18px;
@@ -24,3 +18,166 @@ img[alt=img-post-list] {
         font-size: 16px;
     }
 }
+
+.image-wrapper {
+    text-align: center;
+
+    .image-caption {
+        color: $grey-color;
+        margin-top: $spacing-unit / 3;
+        font-size: 80%;
+    }
+}
+
+.video-wrapper {
+    text-align: center;
+
+  .video-caption {
+    color: $grey-color;
+    margin-top: $spacing-unit / 3;
+    font-size: 80%;
+  }
+}
+
+
+img[alt=portrait] {
+  width: 150px;
+  text-align: center;
+}
+
+img[alt=img-post-list] {
+  height: 150px;
+  text-align: center;
+}
+
+img[alt=back-home] {
+  height: 17px;
+//  text-align: center;
+}
+
+img[alt=paper-demo] {
+  height: 215px;
+//  text-align: center;
+}
+
+.button-fit {
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+  cursor: pointer;
+  -webkit-appearance: none;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 0;
+  padding: 0.15em 0.1em;
+  margin: 0 0 0.2rem 0;
+  font-size: 0.9rem;
+  background-color: #2199e8;
+  color: #fff; }
+  [data-whatinput='mouse'] .button-fit {
+    outline: 0; }
+  .button-fit:hover, .button-fit:focus {
+    background-color: #1583cc;
+    color: #fff; }
+  .button-fit.tiny {
+    font-size: 0.6rem; }
+  .button-fit.small {
+    font-size: 0.75rem; }
+  .button-fit.large {
+    font-size: 1.25rem; }
+  .button-fit.expanded {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0; }
+  .button-fit.primary {
+    background-color: #2199e8;
+    color: #fff; }
+    .button-fit.primary:hover, .button-fit.primary:focus {
+      background-color: #147cc0;
+      color: #fff; }
+  .button-fit.secondary {
+    background-color: #777;
+    color: #fff; }
+    .button-fit.secondary:hover, .button-fit.secondary:focus {
+      background-color: #5f5f5f;
+      color: #fff; }
+  .button-fit.success {
+    background-color: #3adb76;
+    color: #fff; }
+    .button-fit.success:hover, .button-fit.success:focus {
+      background-color: #22bb5b;
+      color: #fff; }
+  .button-fit.alert {
+    background-color: #ec5840;
+    color: #fff; }
+    .button-fit.alert:hover, .button-fit.alert:focus {
+      background-color: #da3116;
+      color: #fff; }
+  .button-fit.warning {
+    background-color: #ffae00;
+    color: #fff; }
+    .button-fit.warning:hover, .button-fit.warning:focus {
+      background-color: #cc8b00;
+      color: #fff; }
+  .button-fit.hollow {
+    border: 1px solid #2199e8;
+    color: #2199e8; }
+    .button-fit.hollow, .button-fit.hollow:hover, .button-fit.hollow:focus {
+      background-color: transparent; }
+    .button-fit.hollow:hover, .button-fit.hollow:focus {
+      border-color: #0c4d78;
+      color: #0c4d78; }
+    .button-fit.hollow.primary {
+      border: 1px solid #2199e8;
+      color: #2199e8; }
+      .button-fit.hollow.primary:hover, .button-fit.hollow.primary:focus {
+        border-color: #0c4d78;
+        color: #0c4d78; }
+    .button-fit.hollow.secondary {
+      border: 1px solid #777;
+      color: #777; }
+      .button-fit.hollow.secondary:hover, .button-fit.hollow.secondary:focus {
+        border-color: #3c3c3c;
+        color: #3c3c3c; }
+    .button-fit.hollow.success {
+      border: 1px solid #3adb76;
+      color: #3adb76; }
+      .button-fit.hollow.success:hover, .button-fit.hollow.success:focus {
+        border-color: #157539;
+        color: #157539; }
+    .button-fit.hollow.alert {
+      border: 1px solid #ec5840;
+      color: #ec5840; }
+      .button-fit.hollow.alert:hover, .button-fit.hollow.alert:focus {
+        border-color: #881f0e;
+        color: #881f0e; }
+    .button-fit.hollow.warning {
+      border: 1px solid #ffae00;
+      color: #ffae00; }
+      .button-fit.hollow.warning:hover, .button-fit.hollow.warning:focus {
+        border-color: #805700;
+        color: #805700; }
+  .button-fit.disabled, .button-fit[disabled] {
+    opacity: 0.25;
+    cursor: not-allowed;
+    pointer-events: none; }
+  .button-fit.dropdown::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border: inset 0.4em;
+    border-color: #fefefe transparent transparent;
+    border-top-style: solid;
+    border-bottom-width: 0;
+    position: relative;
+    top: 0.4em;
+    float: right;
+    margin-left: 1em;
+    display: inline-block; }
+  .button-fit.arrow-only::after {
+    margin-left: 0;
+    float: none;
+    top: 0.2em; }

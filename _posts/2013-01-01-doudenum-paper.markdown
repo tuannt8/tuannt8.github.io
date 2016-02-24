@@ -11,10 +11,14 @@ categories:
   - paper
   - ercp
 ---
-<!--more-->
 
-{% include paper.html name="**T. Tuan Nguyen**, Myeongjin Kim, and Doo Yong Lee"
-  year="2013"
-  title="A Hybrid Contact Model for Cannulation Simulation of ERCP"
-  conf="Medical Meets Virtual Reality 21"
-  %}
+# Paper:
+**T. Tuan Nguyen**, Myeongjin Kim, and Doo Yong Lee. (2013). A Hybrid Contact Model for Cannulation Simulation of ERCP, *Medical Meets Virtual Reality 21*. [Link][paper]
+
+
+<!--more-->
+{% include_relative ercp.md %}
+
+
+
+[paper]:http://www.ncbi.nlm.nih.gov/pubmed/24732527

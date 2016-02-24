@@ -12,8 +12,12 @@ categories:
 
 <!--more-->
 
-{% include paper.html name="**T. Tuan Nguyen**, , Hoeryong Jung, Myeongjin Kim, and Doo Yong Lee"
-  year="2013"
-  title="A Method for Generating Cut Surface in Surgery Simulation"
-  conf="International Conference on Control, Automation and Systems (ICCAS 2013)"
-  %}
+# Paper:
+
+**T. Tuan Nguyen**, Hoeryong Jung, Myeongjin Kim, and Doo Yong Lee. (2013). A Method for Generating Cut Surface in Surgery Simulation. *International Conference on Control, Automation and Systems (ICCAS 2013)*. [Link][paper].
+
+{% include_relative ercp.md %}
+
+
+
+[paper]:http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6703870

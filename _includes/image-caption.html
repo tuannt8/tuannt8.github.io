@@ -1,0 +1,20 @@
+<div class="image-wrapper" >
+    {% if include.url %}
+    <a href="{{ include.url }}" title="{{ include.title }}" target="_blank">
+    {% endif %}
+        <img src="{{ site.baseurl }}{{ include.img }}" alt="{{ include.alt }}"
+        {% if include.width %}
+          width="{{ include.width }}"
+        {% endif %}
+        />
+    {% if include.url %}
+    </a>
+    {% endif %}
+    {% if include.caption %}
+        <p class="image-caption">{{ include.caption }}
+        {% if include.imgsource %}
+          <a href="{{ include.imgsource }}" target="_blank">(source)</a>
+        {% endif %}
+        </p>
+    {% endif %}
+</div>
