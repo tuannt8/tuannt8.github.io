@@ -34,7 +34,6 @@ layout: single
 
 {: .center}
 # Tuan Nguyen
-
 I am a PhD candidate from [Technical University Denmark][DTU]. My current research is deformable mesh and its applications. My  [CV][cv].
 
 ### Highlights
@@ -43,6 +42,8 @@ I am a PhD candidate from [Technical University Denmark][DTU]. My current resear
 * MSc in Mechanical Engineering, [KAIST][Kaist], Korea, 2014
 * Offshore developer, Sony Digital Network Application Inc., Vietnam, 2010-2012
 * BS in Mechanical Engineering, honor program, [HUST][Hust], Vietnam, 2010
+
+---
 
 ### My researches
 <ul class="post-list">
