@@ -8,19 +8,18 @@ layout: single
   {: .center}
   ![portrait](/img/portrait.png)
 </div><div class="large-8 medium-8 columns" markdown="1">
-  I am a PhD candidate from [Technical University Denmark][DTU]. My current research is deformable mesh and its applications.
+  I am a PhD candidate from [Technical University Denmark][DTU]. My current research is `deformable mesh` and its applications.
 
   {% include button-gray.html title="More from my CV" url="/assets/cv.pdf"%}
 </div>
 </div>
 
-#### Highlights
 
+#### Highlights
 * Research assistant, School of Computing, [NUS][NUS], Singapore, 2014
 * MSc in Mechanical Engineering, [KAIST][Kaist], Korea, 2014
 * Offshore developer, Sony Digital Network Application Inc., Vietnam, 2010-2012
 * BS in Mechanical Engineering, honor program, [HUST][Hust], Vietnam, 2010
-
 
 #### Publications
 <ul class="post-list">
