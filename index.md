@@ -32,7 +32,7 @@ title: About
 <br>
 
 {: .center}
-I am a PhD candidate from [Technical University Denmark][DTU]. My current research is `deformable mesh` and its applications.
+I am a PhD candidate from [Technical University of Denmark][DTU]. My current research is `deformable mesh` and its applications.
 
 <!-- {: .center}
 ![](/img/autumn.jpg) -->
