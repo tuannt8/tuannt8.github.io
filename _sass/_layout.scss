@@ -14,7 +14,7 @@
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: 36px;
     font-weight: 300;
     line-height: 56px;
     letter-spacing: -1px;
@@ -34,6 +34,20 @@
     letter-spacing: 0px;
     margin-bottom: -10;
     float: right;
+
+    &,
+    &:visited {
+        color: $grey-color-dark;
+    }
+}
+
+.page-list-active {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 56px;
+    letter-spacing: 0px;
+    margin-bottom: -10;
+    float: left;
 
     &,
     &:visited {

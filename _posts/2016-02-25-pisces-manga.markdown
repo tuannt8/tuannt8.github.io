@@ -7,7 +7,10 @@ categories:
   - fun
 ---
 
-A fun story of how I used to resolve a bug as a developer. <!--more-->I often disabled the features that go with the bug (Seriously, they are just tiny features, but testers always tried to exaggerate them {% include emoj.html name="smile" %}.
+
+A fun story of how I used to resolve a bug as a developer. I often disabled the features that go with the bug (Seriously, they are just tiny features, but testers always tried to exaggerate them {% include emoj.html name="smile" %}.
+<!--more-->
+
 
 ![manga](/assets/pieces-manga/Eng/intro.jpg)
 

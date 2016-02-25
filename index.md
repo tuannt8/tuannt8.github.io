@@ -3,17 +3,40 @@ layout: page
 title: About
 ---
 
+<!-- <div class="row">
+<div class="large-6 medium-6 columns" markdown="1">
+<br> -->
 
-<div class="row">
-<div class="large-4 medium-4 columns" markdown="1">
-  {: .center}
-  ![portrait](/img/portrait.png)
-</div><div class="large-8 medium-8 columns" markdown="1">
-  I am a PhD candidate from [Technical University Denmark][DTU]. My current research is `deformable mesh` and its applications.
+<!-- </div> -->
+<!-- <div class="large-6 medium-6 columns" markdown="1"> -->
 
-  {% include button-gray.html title="More from my CV" url="/assets/cv.pdf"%}
-</div>
-</div>
+
+
+<!-- </div>
+</div> -->
+
+<!-- {: .center}
+[My research](#) -
+[My CV](#) -
+[My blog](#) -->
+
+<!-- {: .center}
+{% include button-gray.html title="My research" url="/assets/cv.pdf"%}{% include button-gray.html title="My CV" url="/assets/cv.pdf"%}{% include button-gray.html title="My blog" url="/assets/cv.pdf"%} -->
+
+<!-- {: .center}
+# Tuan Nguyen -->
+<br>
+
+{% include about-image.html %}
+
+<br>
+
+{: .center}
+I am a PhD candidate from [Technical University Denmark][DTU]. My current research is `deformable mesh` and its applications.
+
+<!-- {: .center}
+![](/img/autumn.jpg) -->
+
 
 
 ## Highlights
@@ -21,6 +44,8 @@ title: About
 * MSc in Mechanical Engineering, [KAIST][Kaist], Korea, 2014
 * Offshore developer, Sony Digital Network Application Inc., Vietnam, 2010-2012
 * BS in Mechanical Engineering, honor program, [HUST][Hust], Vietnam, 2010
+
+{% include button-gray.html title="More from my resume" url="/assets/cv.pdf"%}
 
 ## Publications
 <ul class="paper-list">

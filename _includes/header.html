@@ -2,7 +2,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <!-- <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a> -->
 
     <!-- <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -24,10 +24,19 @@
 
 <!-- Under construction -->
     {% for my_page in site.pages %}
-      {% if my_page.title %}
-      <a class="page-list" href="{{ my_page.url | prepend: site.baseurl }}">  &nbsp {{ my_page.title }}</a>
+      {% if page.url == my_page.url %}
+        <a class="site-title" href="{{ my_page.url | prepend: site.baseurl }}">  {{ my_page.title }}</a>
       {% endif %}
     {% endfor %}
+
+    {% for my_page in site.pages %}
+      {% if page.url == my_page.url %}
+
+      {% else %}
+        <a class="page-list" href="{{ my_page.url | prepend: site.baseurl }}">  &nbsp {{ my_page.title }}</a>
+      {% endif %}
+    {% endfor %}
+
   </div>
 
 </header>
