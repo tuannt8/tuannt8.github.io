@@ -1,7 +1,7 @@
 /**
  * Reset some basic elements
  */
-body, //h1, h2, h3, h4, h5, h6,
+//body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
     margin: 0;
@@ -13,37 +13,37 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
-body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    color: $text-color;
-    background-color: $background-color;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-feature-settings: "kern" 1;
-    -moz-font-feature-settings: "kern" 1;
-    -o-font-feature-settings: "kern" 1;
-    font-feature-settings: "kern" 1;
-    font-kerning: normal;
-}
+// body {
+//     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+//     color: $text-color;
+//     background-color: $background-color;
+//     -webkit-text-size-adjust: 100%;
+//     -webkit-font-feature-settings: "kern" 1;
+//     -moz-font-feature-settings: "kern" 1;
+//     -o-font-feature-settings: "kern" 1;
+//     font-feature-settings: "kern" 1;
+//     font-kerning: normal;
+// }
 // change: to foundation
 
-// body {
-//   padding: 0;
-//   margin: 0;
-//   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-//   font-weight: normal;
-//   line-height: 1.5;
-//   color: #0a0a0a;
-//   background: #fefefe;
-//   -webkit-font-smoothing: antialiased;
-//   -moz-osx-font-smoothing: grayscale; }
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: $base-font-weight;
+  line-height: 1.5;
+  color: #0a0a0a;
+  background: #fefefe;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-//h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
+// h1, h2, h3, h4, h5, h6,
+// p, blockquote, pre,
+// ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
 }
@@ -212,5 +212,20 @@ pre {
         path {
             fill: $grey-color;
         }
+    }
+}
+
+
+
+.emoj {
+    > svg {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        vertical-align: middle;
+
+        // path {
+        //     fill: $grey-color;
+        // }
     }
 }

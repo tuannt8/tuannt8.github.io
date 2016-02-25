@@ -1,5 +1,6 @@
 ---
-layout: single
+layout: page
+title: About
 ---
 
 
@@ -15,32 +16,33 @@ layout: single
 </div>
 
 
-### Highlights
+## Highlights
 * Research assistant, School of Computing, [NUS][NUS], Singapore, 2014
 * MSc in Mechanical Engineering, [KAIST][Kaist], Korea, 2014
 * Offshore developer, Sony Digital Network Application Inc., Vietnam, 2010-2012
 * BS in Mechanical Engineering, honor program, [HUST][Hust], Vietnam, 2010
 
-### Publications
-<ul class="post-list">
+## Publications
+<ul class="paper-list">
   {% for post in site.categories.paper %}
     <li>
-      <!-- <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> -->
-      {{ post.title }}
-      <span class="paper-meta"> {{ post.conf }}, {{ post.date | date: "%Y" }}. </span>
+<hr>
+      <span class="paper-meta"> {{ post.date | date: "%Y" }}. </span>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>,
+      <!-- {{ post.title }}, -->
+      <span class="paper-meta"> {{ post.conf }}. </span>
 
-      <a href="{{ post.url | prepend: site.baseurl }}" class="small button-fit">Read more</a>
+      <!-- <a href="{{ post.url | prepend: site.baseurl }}" class="small button-fit">Read more</a> -->
 
       {% if post.image %}
         {% assign image = post.image %}
         {% include image-caption.html  img=image width="500"%}
       {% endif %}
 
-      {% if post.images %}
+      {% if post.video %}
         {% assign videos = post.video %}
-        {% include youtube.html  video=videos %}
+        {% include youtube-paper-list.html  video=videos %}
       {% endif %}
-
       <!-- {{ post.excerpt }} -->
     </li>
   {% endfor %}

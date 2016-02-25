@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    // border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -31,12 +31,9 @@
     font-size: 20px;
     font-weight: 300;
     line-height: 56px;
-    letter-spacing: -1px;
+    letter-spacing: 0px;
     margin-bottom: -10;
     float: right;
-  // position: relative;
-  // left: -42%; /* or right 50% */
-  // text-align: left;
 
     &,
     &:visited {
@@ -197,6 +194,15 @@
 }
 
 .post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.paper-list {
     margin-left: 1;
     list-style: round;
 
@@ -226,7 +232,7 @@
 
 .post-title {
     font-size: 42px;
-    letter-spacing: -1px;
+    letter-spacing: 0px;
     line-height: 1;
 
     @include media-query($on-laptop) {
@@ -236,7 +242,6 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
-
     h2 {
         font-size: 32px;
 
@@ -289,7 +294,7 @@
 
 .paper-title {
     font-size: 30px;
-    letter-spacing: -1px;
+    letter-spacing: 0px;
     line-height: 1;
 
     @include media-query($on-laptop) {
@@ -302,6 +307,16 @@
 
     h1, h2, h3, h4{
       font-weight: 200;
+      letter-spacing: 0px;
+
+      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-weight: 200;
+      font-style: normal;
+      color: inherit;
+      text-rendering: optimizeLegibility;
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+      line-height: 1.4;
     }
 
     h1 {

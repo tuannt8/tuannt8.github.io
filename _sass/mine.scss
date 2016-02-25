@@ -30,6 +30,7 @@
 }
 
 .video-wrapper {
+    display:block;
     text-align: center;
 
   .video-caption {
@@ -58,6 +59,18 @@ img[alt=back-home] {
 img[alt=paper-demo] {
   height: 215px;
 //  text-align: center;
+}
+
+img[alt=manga] {
+  display: block;
+  // margin: 15px;
+  text-align: center;
+  border:1px solid #021a40;
+}
+
+img[alt=emoj] {
+  height: $base-font-size;
+
 }
 
 .button-fit {
