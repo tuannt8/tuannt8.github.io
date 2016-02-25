@@ -3,28 +3,6 @@ layout: page
 title: About
 ---
 
-<!-- <div class="row">
-<div class="large-6 medium-6 columns" markdown="1">
-<br> -->
-
-<!-- </div> -->
-<!-- <div class="large-6 medium-6 columns" markdown="1"> -->
-
-
-
-<!-- </div>
-</div> -->
-
-<!-- {: .center}
-[My research](#) -
-[My CV](#) -
-[My blog](#) -->
-
-<!-- {: .center}
-{% include button-gray.html title="My research" url="/assets/cv.pdf"%}{% include button-gray.html title="My CV" url="/assets/cv.pdf"%}{% include button-gray.html title="My blog" url="/assets/cv.pdf"%} -->
-
-<!-- {: .center}
-# Tuan Nguyen -->
 <br>
 
 {% include about-image.html %}
@@ -33,11 +11,6 @@ title: About
 
 {: .center}
 I am a PhD candidate from [Technical University of Denmark][DTU]. My current research is `deformable mesh` and its applications.
-
-<!-- {: .center}
-![](/img/autumn.jpg) -->
-
-
 
 ## Highlights
 * Research assistant, School of Computing, [NUS][NUS], Singapore, 2014
