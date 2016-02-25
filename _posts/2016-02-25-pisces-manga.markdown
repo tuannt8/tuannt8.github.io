@@ -14,6 +14,6 @@ A fun story of how I used to resolve a bug as a developer. I often disabled the 
 
 ![manga](/assets/pieces-manga/Eng/intro.jpg)
 
-![manga](/assets/pieces-manga/Eng/page1.jpg)
+![manga](/assets/pieces-manga/Eng/Page1.jpg)
 
 ![manga](/assets/pieces-manga/Eng/page2.jpg)
