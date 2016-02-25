@@ -300,6 +300,10 @@
 .paper-content {
     margin-bottom: $spacing-unit;
 
+    h1, h2, h3, h4{
+      font-weight: 200;
+    }
+
     h1 {
         font-size: 25px;
 

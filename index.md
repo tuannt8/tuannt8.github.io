@@ -15,13 +15,13 @@ layout: single
 </div>
 
 
-#### Highlights
+### Highlights
 * Research assistant, School of Computing, [NUS][NUS], Singapore, 2014
 * MSc in Mechanical Engineering, [KAIST][Kaist], Korea, 2014
 * Offshore developer, Sony Digital Network Application Inc., Vietnam, 2010-2012
 * BS in Mechanical Engineering, honor program, [HUST][Hust], Vietnam, 2010
 
-#### Publications
+### Publications
 <ul class="post-list">
   {% for post in site.categories.paper %}
     <li>
