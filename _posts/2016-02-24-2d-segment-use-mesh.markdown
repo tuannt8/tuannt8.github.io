@@ -8,10 +8,9 @@ description:
 categories: paper dsc segment
 ---
 
+<!--more-->
 # Paper:
 **T. Tuan Nguyen**, V. Andersen Dahl and J. Andreas Bærentzen. (2016). Multiple-phase Image Segmentation with Deformable Mesh using the Mumford-Shah Model, *submitting*.
 
 # Demonstration
 ![](/img/hamster.png)
-
-<!--more-->

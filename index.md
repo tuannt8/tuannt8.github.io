@@ -36,6 +36,12 @@ layout: single
         {% assign image = post.image %}
         {% include image-caption.html  img=image width="500"%}
       {% endif %}
+
+      {% if post.images %}
+        {% assign videos = post.video %}
+        {% include youtube.html  video=videos %}
+      {% endif %}
+
       <!-- {{ post.excerpt }} -->
     </li>
   {% endfor %}

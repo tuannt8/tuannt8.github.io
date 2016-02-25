@@ -262,6 +262,8 @@
     }
 }
 
+
+
 // MINE===================================
 /**
  * Paper
@@ -329,4 +331,14 @@
             font-size: 16px;
         }
     }
+}
+
+.body iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.paper-content iframe {
+  display: block;
+  margin: 0 auto;
 }

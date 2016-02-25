@@ -20,8 +20,7 @@ A real-time simulation is shown in the demonstration video. The simulation provi
 
 </div><div class="large-6 medium-6 columns" markdown="1">
 
-{% include youtube.html src="http://www.youtube.com/embed/YkOgbarneHE"  width="280" height="280"  
-caption="Video demonstration of sphincterotomy" %}
+<iframe width="280" height="280" src="http://www.youtube.com/embed/YkOgbarneHE" frameborder="0" allowfullscreen></iframe>
 
 </div>
 </div>
