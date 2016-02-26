@@ -2,8 +2,15 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/"> Back <img src="{{ site.baseurl }}/img/back.png" alt="back-home"> </a>
+    <a class="site-title" href="{{ site.baseurl }}/"> About <img src="{{ site.baseurl }}/img/back.png" alt="back-home"> </a>
 
+    {% for my_page in site.pages %}
+      {% if page.url == my_page.url %}
+
+      {% else %}
+        <a class="page-list" href="{{ my_page.url | prepend: site.baseurl }}">  &nbsp {{ my_page.title }}</a>
+      {% endif %}
+    {% endfor %}
   </div>
 
 </header>

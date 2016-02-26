@@ -17,7 +17,11 @@
         </header>
 
         <div class="paper-content" itemprop="articleBody">
-          {{ content }}
+          {% if page.separateSum == "yes"%}
+            {{ content | remove_first: page.excerpt }}
+          {% else %}
+            {{ content }}
+          {% endif %}
         </div>
 
       </article>

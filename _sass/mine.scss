@@ -9,7 +9,9 @@
     vertical-align: bottom;
 }
 
-
+ul.li.center{
+  text-align: center;
+}
 
 .paper-link {
     font-size: 18px;
@@ -18,6 +20,7 @@
         font-size: 16px;
     }
 }
+
 
 .image-wrapper {
     text-align: center;
@@ -67,6 +70,16 @@ img[alt=manga] {
   text-align: center;
   border:1px solid #021a40;
 }
+
+
+img[alt=front-page] {
+  max-width:400px;
+  max-height: 200px;
+  display: block;
+  // margin: 15px;
+  text-align: center;
+}
+
 
 img[alt=emoj] {
   height: $base-font-size;

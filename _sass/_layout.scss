@@ -217,8 +217,8 @@
 }
 
 .paper-list {
-    margin-left: 1;
-    list-style: round;
+    margin-left: 0;
+    list-style: none;
 
     > li {
         margin-bottom: $spacing-unit / 3;
@@ -231,7 +231,7 @@
 }
 
 .post-link {
-  //  display: block;
+   display: block;
     font-size: 20px;
 }
 
@@ -292,8 +292,14 @@
      margin-left: 0;
      list-style: none;
 
+// background-color: rgb(240,240,240);
      > li {
-         margin-bottom: $spacing-unit;
+         margin-bottom: -10;// $spacing-unit;
+     }
+
+     > hr {
+       margin-bottom: 0;
+       height: 0.1px;
      }
  }
 
