@@ -13,9 +13,10 @@ permalink: /blog/
       <span class="post-date"> {{ post.date | date: "%B %d, %Y" }}. </span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 
-        <p>
-        <!-- {{ post.excerpt }} -->
-        </p>
+        <!-- <p> -->
+        {{ post.excerpt }}
+        <!-- </p> -->
+
       </li>
     {% endfor %}
   </ul>

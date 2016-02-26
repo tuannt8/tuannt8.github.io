@@ -8,7 +8,7 @@
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
-$base-font-weight: 50;
+$base-font-weight: 300;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -31,12 +31,8 @@ $on-laptop:        750px;
 
 
 // Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
+
+
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
@@ -45,11 +41,11 @@ $on-laptop:        750px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-
+        "reponsive",
         "base",
         "layout",
         "syntax-highlighting",
-        // "foundation",
+        "about",
         "mine"
 ;
 
@@ -197,6 +193,7 @@ a:visited { color: #205caa; }
   font-size: 24px;
   letter-spacing: -1px;
   line-height: 1;
+  margin-bottom: 10px;
 }
 
 .posts .post-date {
@@ -266,7 +263,9 @@ a:visited { color: #205caa; }
 }
 
 .post-content ul,
-.post-content ol { padding-left: 20px; }
+.post-content ol {
+   padding-left: -1.35em;
+}
 
 .post pre,
 .post code {
@@ -280,7 +279,9 @@ a:visited { color: #205caa; }
 .post code { padding: 1px 5px; }
 
 .post ul,
-.post ol { margin-left: 1.35em; }
+.post ol {
+  margin-left: 1.35em;
+}
 
 .post pre code { border: none; }
 
@@ -366,7 +367,9 @@ a:visited { color: #205caa; }
   .post-content h4 { font-size: 18px; }
   .post-content blockquote { padding-left: 10px; }
   .post-content ul,
-  .post-content ol { padding-left: 10px; }
+  .post-content ol {
+    padding-left: 10px;
+  }
 
   .site-footer .column {
     float: none;

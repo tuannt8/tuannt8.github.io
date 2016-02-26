@@ -1,0 +1,35 @@
+.about{
+
+}
+
+.about-content{
+  h1 { font-size: 36px; }
+  h2 { font-size: 28px; }
+  h3 { font-size: 22px; }
+  h4 { font-size: 18px; }
+
+  ul,
+  ol {
+   margin-left: 1.5em;
+  }
+
+  .paper-list {
+      margin-left: 0;
+      list-style: none;
+
+      > li {
+           margin-bottom:  $spacing-unit/3;
+         //  margin-left: - $spacing-unit;
+      }
+
+      .meta{
+        font-size: $small-font-size;
+        color: $grey-color;
+      }
+
+      .link{
+        font-size: 16px;
+      }
+
+  }
+}

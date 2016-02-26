@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: about
 title: About
 ---
 
-<br>
+<!-- <br> -->
 
 {% include about-image.html %}
 
@@ -12,18 +12,6 @@ title: About
 {: .center}
 `PhD candidate, cycling lover` <br> `and coffee enthusiasm`
 
-<!-- ## Research
-<ul class="paper-list">
-  {% for post in site.categories.research %}
-    <li>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      <span class="paper-meta"> {{ post.date | date: "%Y" }}. </span>
-
-      {{ post.excerpt }}
-
-    </li>
-  {% endfor %}
-</ul> -->
 
 ## Highlights
 * PhD candidate, Image analysis and Computer Graphics, [DTU][DTU], *Denmark*, now
@@ -32,16 +20,26 @@ title: About
 * Offshore developer, Sony Digital Network Application Inc., *Vietnam*, 2010-2012
 * BS in Mechanical Engineering, honor program, [HUST][Hust], *Vietnam*, 2010
 
-{% include button-gray.html title="More from my resume" url="/assets/cv.pdf"%}
+<!-- <a target="blank" href="{{ site.baseurl }}{{ assets/vc.pdf }}" class="button simple"> More from my CV </a> -->
+
+<!-- {% include button-gray.html title="More from my resume" url="/assets/cv.pdf"%} -->
+
+
+
+{: .center}
+<a target="blank" href="{{ "/assets/cv.pdf" | prepend: site.baseurl }}"> **More from my resume** </a>
+<br>
+<br>
+
 
 ## Publications
 <ul class="paper-list">
   {% for post in site.categories.paper %}
   <hr>
     <li>
-      <a  href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>,
-      <span class="paper-meta"> {{ post.conf }}. </span>
-      <span class="paper-meta"> {{ post.date | date: "%Y" }}. </span>
+      <a class="link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>,
+      <span class="meta"> {{ post.conf }}. </span>
+      <span class="meta"> {{ post.date | date: "%Y" }}. </span>
       {{ post.excerpt }}
     </li>
   {% endfor %}
