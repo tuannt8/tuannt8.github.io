@@ -3,6 +3,8 @@ layout: about
 title: About
 ---
 
+[![Analytics](https://ga-beacon.appspot.com/UA-74400893-1/main-page)](https://github.com/igrigorik/ga-beacon)
+
 <!-- <br> -->
 
 {% include about-image.html %}
