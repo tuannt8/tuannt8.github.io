@@ -23,7 +23,7 @@ There are services that provide us instant blog like `Blogger` and `Word press`,
 `Jekyll` is blog platform for geeks. You can program what you want.
 
 * [Start from here to have `Hello World!` web](https://jekyllrb.com)
-* [Jekyll Cheatsheet](http://ricostacruz.com/cheatsheets/)
+* [Jekyll Cheatsheet](http://ricostacruz.com/cheatsheets/jekyll.html)
 
 Take some time to adjust your page following your ideas, and then comeback to the original template {% include emoj.html name="smile" %}.
 
