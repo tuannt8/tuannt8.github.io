@@ -21,6 +21,14 @@ ul.li.center{
     }
 }
 
+#disqus_thread {
+  overflow: hidden;
+
+  iframe {
+    margin-bottom: -54px;
+  }
+}
+
 
 .image-wrapper {
     text-align: center;
