@@ -3,9 +3,7 @@ layout: post
 title: "test"
 date:   2016-02-29 10:13:03 +0100
 tags:
-catergoties: 
-  - blog
-  - test
+catergoties: blog test
 ---
 
-just test
+just tes
