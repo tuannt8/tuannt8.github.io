@@ -18,12 +18,14 @@
           <p class="paper-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
         </header>
 
-        <div class="paper-content" itemprop="articleBody">
+        <div class="post-content" itemprop="articleBody">
           {% if page.separateSum == "yes"%}
             {{ content | remove_first: page.excerpt }}
           {% else %}
             {{ content }}
           {% endif %}
+
+          {% include disquis.html %}
         </div>
 
       </article>
@@ -32,6 +34,9 @@
 
 
 
+
   {% include footer.html %}
+
+
 </body>
 </html>

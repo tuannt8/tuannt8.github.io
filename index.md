@@ -10,7 +10,9 @@ title: About
 <br>
 
 {: .center}
-`PhD candidate, cycling lover` <br> `and coffee enthusiasm`
+~~~
+PhD candidate, cycling lover and coffee enthusiasm
+~~~
 
 
 ## Highlights
@@ -19,11 +21,6 @@ title: About
 * MSc in Mechanical Engineering, [KAIST][Kaist], *Korea*, 2014
 * Offshore developer, Sony Digital Network Application Inc., *Vietnam*, 2010-2012
 * BS in Mechanical Engineering, honor program, [HUST][Hust], *Vietnam*, 2010
-
-<!-- <a target="blank" href="{{ site.baseurl }}{{ assets/vc.pdf }}" class="button simple"> More from my CV </a> -->
-
-<!-- {% include button-gray.html title="More from my resume" url="/assets/cv.pdf"%} -->
-
 
 
 {: .center}
