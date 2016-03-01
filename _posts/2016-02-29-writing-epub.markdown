@@ -12,7 +12,11 @@ categories:
 
 <!--more-->
 
-We write the document in the `markdown` form. For one who don't know, 
+We write the document in the `markdown` form. For one who don't know, `markdown` is the easy way to write formatted text.
+
+Update: Use `Sigil` is better. We dont need to study about `epub` element, and it have good font and layout.
+
+Write in markdown, convert to html and import to `Sigil`.
 
 # Why `markdown`:
 
