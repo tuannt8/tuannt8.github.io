@@ -32,18 +32,23 @@
         <p>{{ site.description }}</p>
       </div> -->
 
+      <!--  analytic -->
       <ul class="contact-list" align="center">
-        <a href="https://github.com/igrigorik/ga-beacon">
-          <img src="https://ga-beacon.appspot.com/UA-74400893-1/{{ page.title }}" alt="Analytics">
-        </a>&nbsp &nbsp
-        <!-- [![Analytics](https://ga-beacon.appspot.com/UA-74400893-1/main-page)](https://github.com/igrigorik/ga-beacon) -->
 
-        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        {% include analytic.html %}
+
+        &nbsp &nbsp
+        <a href="mailto:{{ site.email }}">
+          <img src="{{ site.baseurl }}/img/mail.png" alt="mail" width="16">
+           {{ site.email }}
+         </a>
+
         &nbsp &nbsp
         {% if site.github_username %}
           {% include icon-github.html username=site.github_username %}
         {% endif %}
-&nbsp &nbsp &nbsp
+
+        &nbsp &nbsp
         <a href="http://www.revolvermaps.com/?target=enlarge&amp;i=1z987plpbl6&amp;color=ff0000&amp;m=0"><img alt="Map" width="60" height="30" src="http://rb.revolvermaps.com/h/m/a/0/ff0000/128/0/1z987plpbl6.png" style="border:0px" ></a>
       </ul>
     </div>
