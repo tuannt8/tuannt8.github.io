@@ -11,7 +11,7 @@ title: About
 
 {: .center}
 ~~~
-PhD candidate, cycling lover and coffee enthusiasm
+I like researches with nice-looking results, hence I like Computer Graphics
 ~~~
 
 
