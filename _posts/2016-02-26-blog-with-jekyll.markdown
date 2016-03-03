@@ -9,7 +9,8 @@ categories:
   - jekyll
 ---
 
-{% include image-caption.html  img="/img/main-page-thumb.jpg" width="350"%}
+`Jekyll` is a good choice for blogging with markdown text.
+{% include image-caption.html  img="/img/main-page-thumb.jpg" width="350" caption="My site with Jekyll"%}
 
 <!--more-->
 

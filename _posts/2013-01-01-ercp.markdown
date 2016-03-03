@@ -19,6 +19,4 @@ categories:
 
 {% include_relative ercp.md %}
 
-
-
 [paper]:http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6703870

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Making epub (Mobile friendly) ebook"
+title:  "Making epub (mobile friendly) ebook"
 date:   2016-02-29 10:13:03 +0100
 separateSum: "yes"
 comments: false
@@ -9,6 +9,8 @@ categories:
   - epub
   - markdown
 ---
+
+{% include image-caption.html img="/img/epub.jpg" width="550"%}
 
 <!--more-->
 
