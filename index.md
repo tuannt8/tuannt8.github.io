@@ -47,12 +47,3 @@ I like researches with nice-looking results, hence I like Computer Graphics
 [Hust]: http://en.hust.edu.vn/home
 [NUS]: http://www.nus.edu.sg
 [cv]: /assets/cv.pdf
-
-
-Test
-~~~ c++
-include a
-int a()
-~~~
-
-a `execpt` code block
