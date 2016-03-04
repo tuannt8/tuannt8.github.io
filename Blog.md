@@ -14,7 +14,7 @@ permalink: /blog/
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 
         <!-- <p> -->
-        {{ post.excerpt }}
+        <!-- {{ post.excerpt }} -->
         <!-- </p> -->
 
       </li>
