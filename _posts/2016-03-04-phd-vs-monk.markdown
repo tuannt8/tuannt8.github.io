@@ -7,4 +7,5 @@ categories:
   - fun
 ---
 
-![](/assets/phDvsMonk_light.jpg)
+{: .center}
+![phd-monk](/assets/phDvsMonk_light.jpg)
