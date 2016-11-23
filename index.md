@@ -10,12 +10,12 @@ title: About
 <br>
 
 {: .center}
-~~~
-I like researches with nice-looking results, hence I like Computer Graphics
-~~~
+
+> I like researches with nice-looking results, <br> hence I like Computer Graphics
 
 
-## Highlights
+
+# Highlights
 * PhD candidate, Image analysis and Computer Graphics, [DTU][DTU], *Denmark*, now
 * Research assistant, School of Computing, [NUS][NUS], *Singapore*, 2014
 * MSc in Mechanical Engineering, [KAIST][Kaist], *Korea*, 2014
@@ -24,19 +24,20 @@ I like researches with nice-looking results, hence I like Computer Graphics
 
 
 {: .center}
-<a target="blank" href="{{ "/assets/cv.pdf" | prepend: site.baseurl }}"> **More from my resume** </a>
+[**More from my resume** ][cv]
 <br>
 <br>
 
 
-## Publications
+# Researches
 <ul class="paper-list">
   {% for post in site.categories.paper %}
-  <hr>
+  <!-- <hr> -->
     <li>
       <a class="link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>,
-      <span class="meta"> {{ post.conf }}. </span>
-      <span class="meta"> {{ post.date | date: "%Y" }}. </span>
+	  <br>
+	  <span class="meta"> {{ post.conf }}. </span> <span class="meta"> {{ post.date | date: "%Y" }}. </span>
+	
       {{ post.excerpt }}
     </li>
   {% endfor %}

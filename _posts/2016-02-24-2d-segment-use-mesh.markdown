@@ -7,7 +7,7 @@ separateSum: "yes"
 categories: paper dsc segment
 ---
 
-{% include image-caption.html  img="/assets/paper/2D-hamster.jpg" width="400"%}
+![](/assets/paper/2D-hamster.jpg){:width="400px"}
 
 <!--more-->
 
