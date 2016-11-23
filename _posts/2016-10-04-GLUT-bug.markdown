@@ -1,11 +1,11 @@
 ---
-layout: post
-title: "GLUT bug in Mac Sierra"
-date: "2016-10-04 11:11:54 +0100"
+title: GLUT bug in Mac Sierra
+date: 2016-10-04 10:11:54 Z
 categories:
-  - blog
-  - C++
-  - OpenGL
+- blog
+- C++
+- OpenGL
+layout: post
 ---
 
 In Mac Sierra, the function `glutGetModifier()` return incorrect value when the mouse function is trigger. A work around is to utilize a Mac function.

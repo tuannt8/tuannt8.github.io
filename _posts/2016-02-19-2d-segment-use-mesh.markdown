@@ -1,10 +1,14 @@
 ---
+title: Multiple-phase Image Segmentation with Deformable Mesh using the Mumford-Shah
+  Model
+date: 2016-02-19 09:13:03 Z
+categories:
+- paper
+- dsc
+- segment
 layout: paper
-title:  "Multiple-phase Image Segmentation with Deformable Mesh using the Mumford-Shah Model"
-conf: "Submitting"
-date:   2016-02-19 10:13:03 +0100
-separateSum: "yes"
-categories: paper dsc segment
+conf: Submitting
+separateSum: 'yes'
 ---
 
 {% include image-caption.html  img="/assets/paper/2D-hamster.jpg" width="400"%}

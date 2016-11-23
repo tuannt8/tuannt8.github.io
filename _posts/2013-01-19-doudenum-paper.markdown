@@ -1,12 +1,12 @@
 ---
-layout: paper
-title:  "A Hybrid Contact Model for Cannulation Simulation of ERCP"
-conf: "Medical Meets Virtual Reality 21"
-date:   2013-01-19 10:13:03 +0100
-separateSum: "yes"
+title: A Hybrid Contact Model for Cannulation Simulation of ERCP
+date: 2013-01-19 09:13:03 Z
 categories:
-  - paper
-  - ercp
+- paper
+- ercp
+layout: paper
+conf: Medical Meets Virtual Reality 21
+separateSum: 'yes'
 ---
 
 {% include youtube-paper-list.html video="https://www.youtube.com/embed/_bE1x9f8EUQ" %}

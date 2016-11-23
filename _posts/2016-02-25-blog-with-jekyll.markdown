@@ -1,12 +1,12 @@
 ---
-layout: post
-title:  "Making personal website with Jekyll"
-date:   2016-02-25 10:13:03 +0100
-separateSum: "yes"
-comments: false
+title: Making personal website with Jekyll
+date: 2016-02-25 09:13:03 Z
 categories:
-  - blog
-  - jekyll
+- blog
+- jekyll
+layout: post
+separateSum: 'yes'
+comments: false
 ---
 
 `Jekyll` is a good choice for blogging with markdown text.

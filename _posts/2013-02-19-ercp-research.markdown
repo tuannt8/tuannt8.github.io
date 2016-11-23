@@ -1,10 +1,12 @@
 ---
+title: Medical simulation of endoscopy procedure
+date: 2013-02-19 09:13:03 Z
+categories:
+- research
+- ercp
 layout: paper
-title:  "Medical simulation of endoscopy procedure"
-separateSum: "yes"
-date:   2013-02-19 10:13:03 +0100
-description:
-categories: research ercp
+separateSum: 'yes'
+description: 
 ---
 
 A computer simulation of a surgery procedure in endoscopy. The result was applied for medical training.

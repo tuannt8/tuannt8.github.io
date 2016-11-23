@@ -1,10 +1,10 @@
 ---
-layout: post
-title:  "My first post"
-date:   2016-02-25 10:13:03 +0100
+title: My first post
+date: 2016-02-25 09:13:03 Z
 categories:
-  - blog
-  - draft
+- blog
+- draft
+layout: post
 ---
 
 My very first `post`.
