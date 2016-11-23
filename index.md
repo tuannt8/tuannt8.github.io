@@ -1,9 +1,7 @@
 ---
-layout: about
 title: About
+layout: about
 ---
-
-<!-- <br> -->
 
 {% include about-image.html %}
 

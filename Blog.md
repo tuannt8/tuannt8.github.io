@@ -1,8 +1,9 @@
 ---
-layout: default
 title: Blog
-permalink: /blog/
+permalink: "/blog/"
+layout: default
 ---
+
 <div class="home">
 
   <h1>Posts</h1>

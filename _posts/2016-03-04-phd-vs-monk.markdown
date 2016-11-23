@@ -1,10 +1,10 @@
 ---
-layout: post
-title: "PhD vs monk"
-date: "2016-03-04 11:11:54 +0100"
+title: PhD vs monk
+date: 2016-03-04 10:11:54 Z
 categories:
-  - blog
-  - fun
+- blog
+- fun
+layout: post
 ---
 
 {: .center}

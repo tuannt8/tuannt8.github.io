@@ -1,13 +1,13 @@
 ---
-layout: post
-title:  "Making epub (mobile friendly) ebook"
-date:   2016-02-29 10:13:03 +0100
-separateSum: "yes"
-comments: false
+title: Making epub (mobile friendly) ebook
+date: 2016-02-29 09:13:03 Z
 categories:
-  - blog
-  - epub
-  - markdown
+- blog
+- epub
+- markdown
+layout: post
+separateSum: 'yes'
+comments: false
 ---
 
 {% include image-caption.html img="/img/epub.jpg" width="550"%}

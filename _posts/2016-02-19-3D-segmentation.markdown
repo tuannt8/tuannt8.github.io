@@ -1,12 +1,17 @@
 ---
+title: 3D segmentation with tetrahedral mesh
+date: 2016-02-19 09:13:03 Z
+categories:
+- paper
+- dsc
+- segment
+- 3D
 layout: paper
-title:  "3D segmentation with tetrahedral mesh"
-conf: "on going"
-separateSum: "yes"
-date:   2016-02-19 10:13:03 +0100
-description:
-categories: paper dsc segment 3D
+conf: on going
+separateSum: 'yes'
+description: 
 ---
+
 ![](/assets/paper/3D-hamster-thumbnail.jpg){:width="400px"}
 <!--more-->
 

@@ -1,13 +1,12 @@
 ---
-layout: post
-title:  "How Pisces resolve a bug"
-date:   2016-02-25 10:13:03 +0100
-separateSum: "yes"
+title: How Pisces resolve a bug
+date: 2016-02-25 09:13:03 Z
 categories:
-  - blog
-  - fun
+- blog
+- fun
+layout: post
+separateSum: 'yes'
 ---
-
 
 A fun story of how I used to resolve a bug as a developer. I often disabled the features that go with the bug (Seriously, they are just tiny features, but testers always tried to exaggerate them {% include emoj.html name="smile" %}.
 

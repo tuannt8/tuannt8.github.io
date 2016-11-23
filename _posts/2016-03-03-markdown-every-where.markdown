@@ -1,12 +1,13 @@
 ---
-layout: post
-title: "Markdown every where"
-date: 2016-03-03 16:11:25 +0100
-separateSum: "no"
+title: Markdown every where
+date: 2016-03-03 15:11:25 Z
 categories:
-  - blog
-  - markdown
+- blog
+- markdown
+layout: post
+separateSum: 'no'
 ---
+
 Using markdown for every thing to have a nice looking format.
 
 {% include image-caption.html img="/img/why-markdown.png" caption="Markdown text and its preview" width="600"%}
