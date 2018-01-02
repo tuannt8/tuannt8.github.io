@@ -6,7 +6,7 @@ description: 'None
 
 '
 baseurl: ''
-url: http://tuannt8.info
+url: http://tuannt8.github.io
 github_username: tuannt8
 excerpt_separator: "<!--more-->"
 markdown: kramdown
