@@ -5,7 +5,7 @@ email: tntr@dtu.dk
 description: 'None
 
 '
-baseurl: ''
+baseurl: 'index.md'
 url: http://tuannt8.github.io
 github_username: tuannt8
 excerpt_separator: "<!--more-->"
