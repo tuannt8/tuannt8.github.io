@@ -9,7 +9,7 @@ tags: Latex
 Convert all graphic files from `png` to **`pdf`**, the compilation time can be *20 times* faster.
 
 # Testing
-Heavy graphics is the bottle neck of Latex compilation, so I make a experiments to see which type of graphics affects the performance the most. I have a latex project with structure
+Heavy graphics is the bottle neck of Latex compilation, so I make experiments to see which type of graphics affects the performance the most. I have a latex project with structure
 
 ~~~
 .
@@ -24,7 +24,7 @@ Heavy graphics is the bottle neck of Latex compilation, so I make a experiments 
 +-- doc.tex
 ~~~
 
-where `jpg`, `png`, `jpgpdf`, and `pngpdf` are folders of 1000 image in corresponding extentions. `jpgpdf` contains pdf file converted from `jpg`, and so does `pngpdf`. The latex file `doc.tex` is
+where `jpg`, `png`, `jpgpdf`, and `pngpdf` are folders of 1000 images in corresponding extentions. `jpgpdf` contains pdf file converted from `jpg`, and so does `pngpdf`. The latex file `doc.tex` is
 
 ~~~
 \documentclass{article}
@@ -54,8 +54,11 @@ So, by changing the `includegraphics` argument, I could test the compilation tim
 | jpgpdf | 183K | 2 sec | 173.8 M |
 | pngpdf | 80K | 1.5 sec | 59.2 M |
 
-So the final conclusion for graphcis file is **`PDF with PNG > PDF with JPG > JPG > PNG`**
+So the final conclusion for graphic file is **`PDF with PNG > PDF with JPG > JPG > PNG`**
 
 # Other approaches
 1. Use `\include` and `\includeonly`
 2. Use `draftmode`
+
+# Tips
+Use `ImageMagic` to convert with simple command `convert image.png image.pdf`
