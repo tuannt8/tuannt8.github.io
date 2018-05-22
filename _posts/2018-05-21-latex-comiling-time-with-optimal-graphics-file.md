@@ -2,7 +2,7 @@
 layout: post
 title: 'Improve Latex compilation time'
 date: 2018-05-21 15:46 +0200
-tags: Latex
+categories: tips latex
 ---
 
 # Short answer
