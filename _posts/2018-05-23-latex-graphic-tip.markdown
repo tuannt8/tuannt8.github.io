@@ -15,3 +15,4 @@ Crop `pdf` to fit its content:
 pdfcrop image.pdf
 ```
 
+{% include disqus_comments.html %}
