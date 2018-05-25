@@ -1,8 +1,10 @@
 ---
+title: Useful tool for image with latex
+date: 2018-05-22 11:32:31 Z
+categories:
+- tips
+- latex
 layout: post
-title:  "Useful tool for image with latex"
-date:   2018-05-22 13:32:31 +0200
-categories: tips latex
 ---
 
 Convert file format: 

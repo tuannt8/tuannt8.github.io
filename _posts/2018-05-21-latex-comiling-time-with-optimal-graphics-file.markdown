@@ -1,8 +1,10 @@
 ---
+title: Improve Latex compilation time
+date: 2018-05-21 13:46:00 Z
+categories:
+- tips
+- latex
 layout: post
-title: "Improve Latex compilation time"
-date: 2018-05-21 15:46 +0200
-categories: tips latex
 ---
 
 # Short answer

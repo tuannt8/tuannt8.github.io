@@ -1,8 +1,11 @@
 ---
+title: CMake as a beginer, part I
+date: 2018-05-18 13:46:00 Z
+tags:
+- CMake
+- CLion
+- Multiplatform
 layout: post
-title: 'CMake as a beginer, part I'
-date: 2018-05-18 15:46 +0200
-tags: CMake CLion Multiplatform
 ---
 
 # Why **CMake**

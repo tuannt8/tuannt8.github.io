@@ -1,8 +1,11 @@
 ---
+title: Bash cheat sheet
+date: 2018-05-22 11:32:31 Z
+categories:
+- tips
+- bash
+- cheatsheet
 layout: post
-title:  "Bash cheat sheet"
-date:   2018-05-22 13:32:31 +0200
-categories: tips bash cheatsheet
 ---
 
 Bash commonly used commands

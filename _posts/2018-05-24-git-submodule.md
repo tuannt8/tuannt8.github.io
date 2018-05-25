@@ -1,8 +1,10 @@
 ---
+title: Use Git submodule to inlcude external library from other repository
+date: 2018-05-24 23:00:00 Z
+categories:
+- tips
+- git
 layout: post
-title:  "Use Git submodule to inlcude external library from other repository"
-date:   2018-05-25 00:00:00 +0100
-categories: tips git
 ---
 
 ## Test case
