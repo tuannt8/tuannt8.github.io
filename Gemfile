@@ -32,4 +32,6 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 # Commandline utilities
 gem 'jekyll-compose', group: [:jekyll_plugins]
 
+# Organize posts
 gem 'jekyll-admin', group: :jekyll_plugins
+gem 'jekyll-scholar'

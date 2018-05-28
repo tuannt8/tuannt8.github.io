@@ -5,6 +5,7 @@ categories:
 - blog
 - misc
 layout: post
+tag: remember
 ---
 
 Mark the birthday of this blog!!!
@@ -23,7 +24,5 @@ $$
 y = \lim \sum \frac{f(x)}{107} f'(x) >
 $$
 
-# Zurb foundation support
-<style type="/assets/css/foundation/components/_button.scss">
-aaa
-</style>
+# Todos
+[Scholar ref](https://github.com/inukshuk/jekyll-scholar)

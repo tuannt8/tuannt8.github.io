@@ -29,8 +29,10 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  
-gem 'jekyll-admin', group: :jekyll_plugins
+
+
+
+
   
 # Disqus Comments
 # disqus:
