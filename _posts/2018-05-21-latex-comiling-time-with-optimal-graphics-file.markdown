@@ -1,6 +1,6 @@
 ---
 title: Improve Latex compilation time
-date: '2018-05-21 13:46:00 +0000'
+date: 2018-05-21 13:46:00 Z
 categories:
 - tips
 - latex
