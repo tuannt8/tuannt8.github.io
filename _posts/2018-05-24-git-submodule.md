@@ -1,12 +1,13 @@
 ---
 title: Use Git submodule to inlcude external library from other repository
-date: 2018-05-24 23:00:00 Z
+date: '2018-05-24 23:00:00 +0000'
 categories:
 - tips
 - git
 layout: post
 ---
 
+![Git submodule](/assets/img/git-submodule.jpg)
 ## Test case
 Imagine you have a repository name `main_repository`. You want to use a library from other repository name `sub_repository`. You want it inside your repository, so other people can easily clone and build your code.
 
@@ -57,4 +58,3 @@ or
 ```shell
 git clone --recurse-submodules https://github.com/main_repository
 ```
-

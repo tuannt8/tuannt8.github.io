@@ -1,6 +1,6 @@
 ---
 title: Improve Latex compilation time
-date: 2018-05-21 13:46:00 Z
+date: '2018-05-21 13:46:00 +0000'
 categories:
 - tips
 - latex
@@ -8,8 +8,11 @@ layout: post
 ---
 
 # Short answer
-Convert all graphic files from `png` to **`pdf`**, the compilation time can be *20 times* faster.
+<br>
 
+> **Convert graphic files to `pdf`**
+
+<br>
 # Testing
 Heavy graphics is the bottle neck of Latex compilation, so I make experiments to see which type of graphics affects the performance the most. I have a latex project with structure
 

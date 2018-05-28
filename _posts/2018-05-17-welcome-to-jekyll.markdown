@@ -1,6 +1,6 @@
 ---
 title: Birthday of this blog
-date: 2018-05-17 11:32:31 Z
+date: '2018-05-17 11:32:31 +0000'
 categories:
 - blog
 - misc
@@ -22,3 +22,8 @@ will display
 $$
 y = \lim \sum \frac{f(x)}{107} f'(x) >
 $$
+
+# Zurb foundation support
+<style type="/assets/css/foundation/components/_button.scss">
+aaa
+</style>
